@@ -9,8 +9,7 @@ document.getElementById('submitA').addEventListener('click', () => {
 		document.getElementById('validacionA').innerHTML = "";
 		document.getElementById('emisorA').style.borderColor = "#ccc";
 	}
-	valor = elementA.value
-	elementB.value = valor;
+	elementB.value = elementA.value;
 });
 
 
@@ -24,7 +23,6 @@ document.getElementById('submitB').addEventListener('click', () => {
 		document.getElementById('validacionB').innerHTML = "";
 		document.getElementById('emisorB').style.borderColor = "#ccc";
 	}
-	valor = elementB.value
-	elementA.value = valor;
+	elementA.value = elementB.value;
 });
 
